@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImageMap>
+  <IsExcludeBackgroundImageFromOutputEnabled>true</IsExcludeBackgroundImageFromOutputEnabled>
+  <BackgroundImageFileName>ProjectInspector.png</BackgroundImageFileName>
+  <OutputFileName>ProjectInspector_markedup.png</OutputFileName>
+  <AddOutputImagesToProject>true</AddOutputImagesToProject>
+  <DefaultFontFamily>Verdana</DefaultFontFamily>
+  <DefaultFontSize>12</DefaultFontSize>
+  <DefaultForeground>#FFF5F5F5</DefaultForeground>
+  <DefaultBackground>#FF000000</DefaultBackground>
+  <BuildThumbnail>true</BuildThumbnail>
+  <ThumbnailSize>
+    <Width>119.69999999999999</Width>
+    <Height>101.39999999999999</Height>
+  </ThumbnailSize>
+  <AddDropShadow>true</AddDropShadow>
+  <DropShadowEffect IsXaml="true">
+    <DropShadowEffect ShadowDepth="5" Color="#FF808080" Direction="315" Opacity="0.7" BlurRadius="7" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+  </DropShadowEffect>
+  <MarkupItems>
+    <MarkupItem Layer="1" Opacity="1" OutputAsImage="true" Rotation="0" RegionShape="Rectangle" OutputFileName="ProjectInspector_Settings.png" Type="Innovasys.ContentAuthoring.ImageMarkup.OriginalRegion" Assembly="Innovasys.ContentAuthoring.ImageMarkup">
+      <Position>1,193,398,145</Position>
+    </MarkupItem>
+  </MarkupItems>
+</ImageMap>

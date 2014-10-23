@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImageMap>
+  <IsExcludeBackgroundImageFromOutputEnabled>true</IsExcludeBackgroundImageFromOutputEnabled>
+  <BackgroundImageFileName>DesignerOverview.png</BackgroundImageFileName>
+  <OutputFileName>DesignerOverview_markedup.png</OutputFileName>
+  <AddOutputImagesToProject>true</AddOutputImagesToProject>
+  <DefaultFontFamily>Verdana</DefaultFontFamily>
+  <DefaultFontSize>12</DefaultFontSize>
+  <DefaultForeground>#FFF5F5F5</DefaultForeground>
+  <DefaultBackground>#FF000000</DefaultBackground>
+  <BuildThumbnail>true</BuildThumbnail>
+  <ThumbnailSize>
+    <Width>286.5</Width>
+    <Height>215.4</Height>
+  </ThumbnailSize>
+  <AddDropShadow>true</AddDropShadow>
+  <DropShadowEffect IsXaml="true">
+    <DropShadowEffect ShadowDepth="5" Color="#FF808080" Direction="315" Opacity="0.7" BlurRadius="7" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+  </DropShadowEffect>
+  <MarkupItems>
+    <MarkupItem AnnotationPosition="Bottom" Layer="1" Opacity="1" OutputAsImage="false" Rotation="0" FontFamily="Verdana" FontWeight="Normal" FontStyle="Normal" FontSize="12" BorderThickness="2" MaxContentWidth="500" MaxContentHeight="300" OutputFileName="DesignerOverview_markedup-MarkupItem.png" Type="Innovasys.ContentAuthoring.ImageMarkup.Annotation" Assembly="Innovasys.ContentAuthoring.ImageMarkup">
+      <CornerRadius>5,5,5,5</CornerRadius>
+      <Position>6,13,112,86</Position>
+      <Background>#FF000000</Background>
+      <Content>Project Selection</Content>
+      <Foreground>#FFF5F5F5</Foreground>
+      <Padding>11,4,11,4</Padding>
+      <BorderBrush>#FF808080</BorderBrush>
+    </MarkupItem>
+    <MarkupItem AnnotationPosition="Bottom" Layer="2" Opacity="1" OutputAsImage="false" Rotation="0" FontFamily="Verdana" FontWeight="Normal" FontStyle="Normal" FontSize="12" BorderThickness="2" MaxContentWidth="500" MaxContentHeight="300" OutputFileName="DesignerOverview_markedup-MarkupItem2.png" Type="Innovasys.ContentAuthoring.ImageMarkup.Annotation" Assembly="Innovasys.ContentAuthoring.ImageMarkup">
+      <CornerRadius>5,5,5,5</CornerRadius>
+      <Position>116,-6,83,125</Position>
+      <Background>#FF000000</Background>
+      <Content>Diagram Selection</Content>
+      <Foreground>#FFF5F5F5</Foreground>
+      <Padding>11,4,11,4</Padding>
+      <BorderBrush>#FF808080</BorderBrush>
+    </MarkupItem>
+    <MarkupItem AnnotationPosition="Bottom" Layer="3" Opacity="1" OutputAsImage="false" Rotation="0" FontFamily="Verdana" FontWeight="Normal" FontStyle="Normal" FontSize="12" BorderThickness="2" MaxContentWidth="500" MaxContentHeight="300" OutputFileName="DesignerOverview_markedup-MarkupItem3.png" Type="Innovasys.ContentAuthoring.ImageMarkup.Annotation" Assembly="Innovasys.ContentAuthoring.ImageMarkup">
+      <CornerRadius>5,5,5,5</CornerRadius>
+      <Position>199,-12,250,124</Position>
+      <Background>#FF000000</Background>
+      <Content>Current Path Area</Content>
+      <Foreground>#FFF5F5F5</Foreground>
+      <Padding>11,4,11,4</Padding>
+      <BorderBrush>#FF808080</BorderBrush>
+    </MarkupItem>
+    <MarkupItem AnnotationPosition="Right" Layer="4" Opacity="1" OutputAsImage="false" Rotation="0" FontFamily="Verdana" FontWeight="Normal" FontStyle="Normal" FontSize="12" BorderThickness="2" MaxContentWidth="500" MaxContentHeight="300" OutputFileName="DesignerOverview_markedup-MarkupItem4.png" Type="Innovasys.ContentAuthoring.ImageMarkup.Annotation" Assembly="Innovasys.ContentAuthoring.ImageMarkup">
+      <CornerRadius>5,5,5,5</CornerRadius>
+      <Position>839,45,121,631</Position>
+      <Background>#FF000000</Background>
+      <Content>Graph Area</Content>
+      <Foreground>#FFF5F5F5</Foreground>
+      <Padding>11,4,11,4</Padding>
+      <BorderBrush>#FF808080</BorderBrush>
+    </MarkupItem>
+    <MarkupItem AnnotationPosition="Top" Layer="4" Opacity="1" OutputAsImage="false" Rotation="0" FontFamily="Verdana" FontWeight="Normal" FontStyle="Normal" FontSize="12" BorderThickness="2" MaxContentWidth="500" MaxContentHeight="300" OutputFileName="DesignerOverview_markedup-MarkupItem7.png" Type="Innovasys.ContentAuthoring.ImageMarkup.Annotation" Assembly="Innovasys.ContentAuthoring.ImageMarkup">
+      <CornerRadius>5,5,5,5</CornerRadius>
+      <Position>4,615,205,119</Position>
+      <Background>#FF000000</Background>
+      <Content>Zoom Area</Content>
+      <Foreground>#FFF5F5F5</Foreground>
+      <Padding>11,4,11,4</Padding>
+      <BorderBrush>#FF808080</BorderBrush>
+    </MarkupItem>
+    <MarkupItem AnnotationPosition="Left" Layer="5" Opacity="1" OutputAsImage="false" Rotation="0" FontFamily="Verdana" FontWeight="Normal" FontStyle="Normal" FontSize="12" BorderThickness="2" MaxContentWidth="500" MaxContentHeight="300" OutputFileName="DesignerOverview_markedup-MarkupItem5.png" Type="Innovasys.ContentAuthoring.ImageMarkup.Annotation" Assembly="Innovasys.ContentAuthoring.ImageMarkup">
+      <CornerRadius>5,5,5,5</CornerRadius>
+      <Position>672,691,250,26</Position>
+      <Background>#FF000000</Background>
+      <Content>Current Diagram Settings</Content>
+      <Foreground>#FFF5F5F5</Foreground>
+      <Padding>11,4,11,4</Padding>
+      <BorderBrush>#FF808080</BorderBrush>
+    </MarkupItem>
+    <MarkupItem AnnotationPosition="Left" Layer="6" Opacity="1" OutputAsImage="false" Rotation="0" FontFamily="Verdana" FontWeight="Normal" FontStyle="Normal" FontSize="12" BorderThickness="2" MaxContentWidth="500" MaxContentHeight="300" OutputFileName="DesignerOverview_markedup-MarkupItem6.png" Type="Innovasys.ContentAuthoring.ImageMarkup.Annotation" Assembly="Innovasys.ContentAuthoring.ImageMarkup">
+      <CornerRadius>5,5,5,5</CornerRadius>
+      <Position>520,15,314,25</Position>
+      <Background>#FF000000</Background>
+      <Content>Save &amp; Generate Code From Project</Content>
+      <Foreground>#FFF5F5F5</Foreground>
+      <Padding>11,4,11,4</Padding>
+      <BorderBrush>#FF808080</BorderBrush>
+    </MarkupItem>
+  </MarkupItems>
+</ImageMap>
