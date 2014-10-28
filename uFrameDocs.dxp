@@ -468,7 +468,6 @@
   <JavascriptProjectPlugin />
   <ComProjectPlugin />
   <AjaxProjectPlugin />
-  <JavaProjectPlugin />
   <DotNetAssemblies>
     <ReferencePaths>
       <ReferencePath Id="165169b5-6f3f-45d0-8682-59057042ca99" Name="Mono.Security" Directory="C:\Program Files (x86)\Unity\MonoDevelop\bin" />
@@ -534,6 +533,7 @@
       <OtherFile Id="3f75f485-c972-49d4-bd5e-da7a6291719e" FileName="images\Snagit\WavesElementStateMachine_markedup_thumb.png" SourceData="" BuildFlags="" />
       <OtherFile Id="162e364a-3339-4e7b-834b-767137eacd5c" FileName="images\Snagit\ViewComponents.png" SourceData="" BuildFlags="" />
       <OtherFile Id="be86742c-db5d-4143-9f61-bd0a1fd4c076" FileName="images\Snagit\ComputedProperty.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="4d75c58c-8d69-4cb2-a083-003f1b6d300f" FileName="images\Snagit\SceneManagerInspector.png" SourceData="" BuildFlags="" />
     </OtherFiles>
     <DefaultStylesheet>stylesheets\customstyles.css</DefaultStylesheet>
     <DefaultCaptureDirectory></DefaultCaptureDirectory>
@@ -553,6 +553,12 @@
         <TocNode Name="" Id="35b1eab5-47e0-48ce-a731-65ec1246473d" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="NOLINK">
           <CaptionTemplate m="2014-10-13T18:20:44.148274Z">Getting Started</CaptionTemplate>
           <ChildNodes>
+            <TocNode Name="" Id="6133b1c9-e85f-40dc-9992-b22df079c884" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+              <CaptionTemplate />
+              <ChildNodes />
+              <TargetItemId>04c14482-98e8-40bf-97e6-7409cde33af1</TargetItemId>
+              <TargetItemBookmark></TargetItemBookmark>
+            </TocNode>
             <TocNode Name="" Id="b853f822-b9bb-4f86-9326-36fee44a1468" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
               <CaptionTemplate />
               <ChildNodes />
@@ -820,6 +826,12 @@
                       <TargetItemId>2373e834-5297-445c-ae8e-81efb52389ba</TargetItemId>
                       <TargetItemBookmark></TargetItemBookmark>
                     </TocNode>
+                    <TocNode Name="" Id="c2d327dd-4520-4f75-8d3e-fbaec3b57755" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+                      <CaptionTemplate />
+                      <ChildNodes />
+                      <TargetItemId>1acbb409-eed7-49e9-b884-b99016e5ec36</TargetItemId>
+                      <TargetItemBookmark></TargetItemBookmark>
+                    </TocNode>
                   </ChildNodes>
                   <TargetItemId>0569aec9-1eb3-428b-89fa-cc11b2d97dd2</TargetItemId>
                   <TargetItemBookmark></TargetItemBookmark>
@@ -865,7 +877,14 @@
                 </TocNode>
                 <TocNode Name="" Id="810af5df-56de-421e-a857-3c69df51915c" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
                   <CaptionTemplate m="2014-10-13T21:21:58.0228376Z">Computed Properties</CaptionTemplate>
-                  <ChildNodes />
+                  <ChildNodes>
+                    <TocNode Name="" Id="b4b2b5f4-ecbd-4587-b144-2919a4a9ff12" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+                      <CaptionTemplate />
+                      <ChildNodes />
+                      <TargetItemId>cfb007ad-c46a-4db4-a5b9-3d863d67be01</TargetItemId>
+                      <TargetItemBookmark></TargetItemBookmark>
+                    </TocNode>
+                  </ChildNodes>
                   <TargetItemId>2f6e3256-0882-41c1-a390-15ec22cd6ca7</TargetItemId>
                   <TargetItemBookmark></TargetItemBookmark>
                 </TocNode>
@@ -905,6 +924,12 @@
                     </TocNode>
                   </ChildNodes>
                   <TargetItemId>d4b39ca7-948e-4d28-81bd-8386fe0a2f60</TargetItemId>
+                  <TargetItemBookmark></TargetItemBookmark>
+                </TocNode>
+                <TocNode Name="" Id="f00971f2-6e7a-4db0-88f8-02e0747b52f8" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+                  <CaptionTemplate />
+                  <ChildNodes />
+                  <TargetItemId>a76df40e-954c-4908-be01-65a4cb724925</TargetItemId>
                   <TargetItemBookmark></TargetItemBookmark>
                 </TocNode>
               </ChildNodes>
@@ -971,13 +996,13 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="5ac0cca2-d666-4b11-9353-36aca269321b" Status="New Topic" CreatedOn="2014-10-13T18:30:05.5721165Z" ModifiedOn="2014-10-16T20:27:06.7072952Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Code Generation Overview" BuildFlags="">
+          <Topic Id="5ac0cca2-d666-4b11-9353-36aca269321b" Status="New Topic" CreatedOn="2014-10-13T18:30:05.5721165Z" ModifiedOn="2014-10-24T17:03:41.1596186Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Code Generation Overview" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-16T20:27:06.7072952Z">&lt;P&gt;uFrame is a very powerful tool becuase of its code generation features, it's not just a UML diagram, it generates a very sophisticated and intelligent&amp;nbsp;code base base on uFrame Core architecture.&lt;/P&gt;
+                <Content m="2014-10-24T17:03:41.1576172Z">&lt;P&gt;uFrame is a very powerful tool becuase of its code generation features, it's not just a UML diagram, it generates a very sophisticated and intelligent&amp;nbsp;code base base on uFrame Core architecture.&lt;/P&gt;
 &lt;TABLE&gt;
 &lt;TBODY&gt;
 &lt;TR&gt;
@@ -990,19 +1015,19 @@
 &lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
 &lt;TR&gt;
 &lt;TD width=170&gt;Components&lt;/TD&gt;
-&lt;TD width=619&gt;All editable View Component classes&lt;/TD&gt;
+&lt;TD width=619&gt;All editable View Component classes.&lt;/TD&gt;
 &lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
 &lt;TR&gt;
 &lt;TD width=170&gt;Controllers&lt;/TD&gt;
-&lt;TD width=619&gt;All editable Controller classes&lt;/TD&gt;
+&lt;TD width=619&gt;All editable Controller classes.&lt;/TD&gt;
 &lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
 &lt;TR&gt;
 &lt;TD width=170&gt;Machines&lt;/TD&gt;
-&lt;TD width=619&gt;All editable State Machine classes&lt;/TD&gt;
+&lt;TD width=619&gt;All editable State Machine classes.&lt;/TD&gt;
 &lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
 &lt;TR&gt;
 &lt;TD width=170&gt;SceneManagers&lt;/TD&gt;
-&lt;TD width=619&gt;All editable scene managers classes&lt;/TD&gt;
+&lt;TD width=619&gt;All editable scene managers classes.&lt;/TD&gt;
 &lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
 &lt;TR&gt;
 &lt;TD width=170&gt;Scenes&lt;/TD&gt;
@@ -1014,11 +1039,11 @@
 &lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
 &lt;TR&gt;
 &lt;TD width=170&gt;ViewModels&lt;/TD&gt;
-&lt;TD width=619&gt;All editable view-models&lt;/TD&gt;
+&lt;TD width=619&gt;All editable view-models.&lt;/TD&gt;
 &lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
 &lt;TR&gt;
 &lt;TD width=170&gt;Views&lt;/TD&gt;
-&lt;TD width=619&gt;All editable View files&lt;/TD&gt;
+&lt;TD width=619&gt;All editable View files.&lt;/TD&gt;
 &lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
 &lt;P&gt;&lt;/P&gt;</Content>
               </TopicSection>
@@ -1203,16 +1228,16 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="0dd4ebb1-0eff-457c-9e69-7a8cc0f83d8c" Status="New Topic" CreatedOn="2014-10-13T19:36:58.2096408Z" ModifiedOn="2014-10-13T19:43:00.1525338Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Project Settings" BuildFlags="">
+          <Topic Id="0dd4ebb1-0eff-457c-9e69-7a8cc0f83d8c" Status="New Topic" CreatedOn="2014-10-13T19:36:58.2096408Z" ModifiedOn="2014-10-26T16:49:29.2204825Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Project Settings" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-13T19:42:42.703399Z">&lt;P&gt;Currently there are only a few options for settings, but in the future this area will continue to grow providing more options.&lt;/P&gt;
+                <Content m="2014-10-26T16:49:29.2204825Z">&lt;P&gt;Currently there are only a few options for settings, but in the future this area will continue to grow providing more options.&lt;/P&gt;
 &lt;P&gt;&lt;STRONG&gt;Root Namespace&lt;/STRONG&gt; - setting is for defining the root namespace at which all generated code will reside.&lt;/P&gt;
 &lt;P&gt;&lt;STRONG&gt;Generate Comments&lt;/STRONG&gt; - setting for wether or not to generate helper comments in editable generated files.&lt;/P&gt;
-&lt;P&gt;&lt;STRONG&gt;Code Generators - &lt;/STRONG&gt;In the future of uFrame there are situations where swapping a generator for a different type of generator will be necessary, this configuration setting is currently not available and should be disregaurded until a future release.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Code Generators -&lt;/STRONG&gt; In the future of uFrame there are situations where swapping a generator for a different type of generator will be necessary, this configuration setting is currently not available and should be disregaurded until a future release.&lt;/P&gt;
 &lt;P&gt;&lt;IMG border=0 alt="" src="images/Snagit/ProjectInspector_Settings.png"&gt;&lt;/P&gt;</Content>
               </TopicSection>
             </TopicSections>
@@ -1312,37 +1337,47 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="2f6e3256-0882-41c1-a390-15ec22cd6ca7" Status="New Topic" CreatedOn="2014-10-13T21:19:26.0916709Z" ModifiedOn="2014-10-20T22:14:44.976288Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="NewTopic4" BuildFlags="">
+          <Topic Id="2f6e3256-0882-41c1-a390-15ec22cd6ca7" Status="New Topic" CreatedOn="2014-10-13T21:19:26.0916709Z" ModifiedOn="2014-10-26T17:07:33.6865631Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="NewTopic4" BuildFlags="">
             <Title m="2014-10-20T21:32:34.2522106Z">Computed Properties</Title>
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-20T22:14:44.976288Z">&lt;P&gt;&lt;IMG border=0 alt="" src="images/Snagit/ComputedProperty.png"&gt;&lt;/P&gt;
-&lt;P&gt;Computed properties allow you to have calculate another properties value when any of its dependants change.&amp;nbsp; When a View-Model is constructed it will subscribe to any other properties that the computed is dependant on.&amp;nbsp; When their values change the computed property is recalculated and set.&amp;nbsp; This allows for a very declaritive way of describing logic.&amp;nbsp; Computed Properties are just like regular properties with some additional functionality.&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Computeds can be bound to just like any other property.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+                <Content m="2014-10-26T17:07:33.6865631Z">&lt;P&gt;&lt;IMG border=0 alt="" src="images/Snagit/ComputedProperty.png"&gt;&lt;/P&gt;
+&lt;P&gt;Computed properties allow you to have calculate another properties value when any of its dependants change.&amp;nbsp; When a View-Model is constructed it will subscribe to any other properties that the computed is dependant on.&amp;nbsp; When their values change the computed property is recalculated and set.&amp;nbsp; This allows for a very declaritive way of describing logic.&amp;nbsp; Computed Properties are just like regular properties with some additional functionality.&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Computeds can be bound to just like any other property.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
 &lt;P&gt;When you create a computed property node all the dependant properties should be connected to the computed's input.&amp;nbsp; You can also use computed properties as inputs to other computeds.&amp;nbsp; This gives you a lot of different options for other subscriptions as well.&lt;/P&gt;
 &lt;P&gt;&amp;nbsp;&lt;/P&gt;
-&lt;P&gt;Computeds are constructed in the View-Model's bind method.&amp;nbsp; There is a generated Reset{ComputedProperty} method that is invoked which sets up the computed property.&amp;nbsp; This looks like the following.&lt;/P&gt;&lt;innovasys:widget layout="block" type="Colorized Example Code"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;IsEmpty_ComputedProperty&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;CS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public virtual void ResetIsEmpty()&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (_IsEmptyDisposable != null) _IsEmptyDisposable.Dispose();&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; _IsEmptyDisposable = _IsEmptyProperty.ToComputed(ComputeIsEmpty, this.GetIsEmptyDependents().ToArray()).DisposeWith(this);&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+&lt;P&gt;Computed&amp;nbsp;Properties&amp;nbsp;are constructed in the View-Model's bind method.&amp;nbsp; There is a generated Reset{ComputedProperty} method that is invoked which sets up the computed property.&amp;nbsp; This looks like the following.&lt;/P&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;IsEmpty_ComputedProperty&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;CS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public virtual void ResetIsEmpty()&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (_IsEmptyDisposable != null) _IsEmptyDisposable.Dispose();&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; _IsEmptyDisposable = _IsEmptyProperty.ToComputed(ComputeIsEmpty, this.GetIsEmptyDependents().ToArray()).DisposeWith(this);&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
               </TopicSection>
             </TopicSections>
-            <TopicLinks />
+            <TopicLinks>
+              <TopicLink Id="999d67cd-f4dd-46dc-988d-e935da2d270d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="cfb007ad-c46a-4db4-a5b9-3d863d67be01" BuildFlags="">
+                <Title />
+                <Category />
+              </TopicLink>
+            </TopicLinks>
             <TopicKeywords />
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="a76df40e-954c-4908-be01-65a4cb724925" Status="New Topic" CreatedOn="2014-10-13T21:19:37.6092233Z" ModifiedOn="2014-10-17T18:33:42.6904645Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="State Machine Diagrams" BuildFlags="">
+          <Topic Id="a76df40e-954c-4908-be01-65a4cb724925" Status="New Topic" CreatedOn="2014-10-13T21:19:37.6092233Z" ModifiedOn="2014-10-26T17:07:33.6945684Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="State Machine Diagrams" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-17T18:33:42.6904645Z">&lt;P&gt;uFrame utilizes a new concept developed to fit the uFrame and RX paradigm of programming.&amp;nbsp; We like to call this "Re-active" state machines.&amp;nbsp; &lt;/P&gt;
+                <Content m="2014-10-26T17:07:33.6945684Z">&lt;P&gt;uFrame utilizes a new concept developed to fit the uFrame and RX paradigm of programming.&amp;nbsp; We like to call this "Re-active" state machines.&amp;nbsp;&lt;/P&gt;
 &lt;P&gt;The main concept if re-active state machines (RSM's)&amp;nbsp;is that when defining them in your diagrams you don't need to focus on anything other than the states and transitions that make up the machine.&amp;nbsp; Making the machine come to life is a matter of wiring them to computed properties, command bindings, and view bindings.&amp;nbsp; But initially, you can focus purely on the high-level rather than implementation, once commands and transitions are all wired together transitions and states can be easily tweaked with minimal to zero changes in your code.&lt;/P&gt;
 &lt;P&gt;Reactive State Machines employ the concept of subscribing to data changes rather than polling data every frame, this can give a definate increase in performance.&lt;/P&gt;
 &lt;P&gt;&lt;IMG border=0 alt="" src="images/Snagit/FPSWeaonStateMachine.png"&gt;&lt;/P&gt;</Content>
               </TopicSection>
             </TopicSections>
-            <TopicLinks />
+            <TopicLinks>
+              <TopicLink Id="b1f7a0ed-e37a-4e28-b677-a1cc36d5d101" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="f01c64e6-c5f3-4ecc-a53b-8c753c8a299c" BuildFlags="">
+                <Title />
+                <Category />
+              </TopicLink>
+            </TopicLinks>
             <TopicKeywords />
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
@@ -1509,13 +1544,13 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="75ea236f-0fea-4079-bf1c-32495270dba2" Status="New Topic" CreatedOn="2014-10-15T00:02:47.7759366Z" ModifiedOn="2014-10-15T00:02:56.4100671Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Code Architecture" BuildFlags="">
+          <Topic Id="75ea236f-0fea-4079-bf1c-32495270dba2" Status="New Topic" CreatedOn="2014-10-15T00:02:47.7759366Z" ModifiedOn="2014-10-26T18:09:11.8946212Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Code Architecture" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-15T00:02:47.7759366Z">&lt;p&gt; &lt;/p&gt;</Content>
+                <Content m="2014-10-26T18:09:11.8946212Z">&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
               </TopicSection>
             </TopicSections>
             <TopicLinks />
@@ -1537,74 +1572,74 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="850a8a7a-38b3-4758-b31f-418ad4c27b08" Status="New Topic" CreatedOn="2014-10-15T00:04:46.1233143Z" ModifiedOn="2014-10-16T20:27:06.7343143Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="uFrame Startup" BuildFlags="">
+          <Topic Id="850a8a7a-38b3-4758-b31f-418ad4c27b08" Status="New Topic" CreatedOn="2014-10-15T00:04:46.1233143Z" ModifiedOn="2014-10-26T16:49:29.273518Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="uFrame Startup" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-16T20:27:06.7343143Z">&lt;DIV class=sf_cols style='HEIGHT: 2271px; WIDTH: 583px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -ms-zoom: 1; -webkit-text-stroke-width: 0px'&gt;
+                <Content m="2014-10-26T16:49:29.273518Z">&lt;DIV class=sf_cols style='HEIGHT: 2271px; WIDTH: 1053px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px; -ms-zoom: 1'&gt;
 &lt;DIV class="sf_colsOut sf_1col_1_100" style="FLOAT: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"&gt;
 &lt;DIV id=contentPlaceholder_TC36A8D30002_Col00 class="sf_colsIn sf_1col_1in_100" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"&gt;
 &lt;DIV class=sfContentBlock style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"&gt;
-&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px'&gt;The Anatomy Of UFrame&lt;/H3&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;So now that we've talked about the general concept of uFrame. &amp;nbsp;We need to go over how this is all put together in uFrame.&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px'&gt;Scene Loading/Booting&lt;/H3&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;The first thing to load in uFrame is the GameManager. &amp;nbsp;This happens because of its predefined "Script Execution Order". &amp;nbsp;When the GameManager loads it makes sure that it is the first instance to load. &amp;nbsp;If it's not the first instance then it will transfer the properties of itself to the current instance and then destroy itself.&lt;BR&gt;&lt;BR&gt;Then the GameManager will begin by calling the "Start" SceneManger's setup method that is specified in the "Start" property located on the GameManger's inspector options. &amp;nbsp;Before we go much further lets examine this setup method.&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px'&gt;The Setup Method&lt;/H3&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;This method could be defined as the scene bootstraper. &amp;nbsp;It's responsibility is to register any dependencies with the dependency container that comes with uFrame.&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
+&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px; font-size-adjust: none; font-stretch: normal'&gt;The Anatomy Of UFrame&lt;/H3&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;So now that we've talked about the general concept of uFrame. &amp;nbsp;We need to go over how this is all put together in uFrame.&lt;BR&gt;&lt;/P&gt;
+&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px; font-size-adjust: none; font-stretch: normal'&gt;Scene Loading/Booting&lt;/H3&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;The first thing to load in uFrame is the GameManager. &amp;nbsp;This happens because of its predefined "Script Execution Order". &amp;nbsp;When the GameManager loads it makes sure that it is the first instance to load. &amp;nbsp;If it's not the first instance then it will transfer the properties of itself to the current instance and then destroy itself.&lt;BR&gt;&lt;BR&gt;Then the GameManager will begin by calling the "Start" SceneManger's setup method that is specified in the "Start" property located on the GameManger's inspector options. &amp;nbsp;Before we go much further lets examine this setup method.&lt;BR&gt;&lt;/P&gt;
+&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px; font-size-adjust: none; font-stretch: normal'&gt;The Setup Method&lt;/H3&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;This method could be defined as the scene bootstraper. &amp;nbsp;It's responsibility is to register any dependencies with the dependency container that comes with uFrame.&lt;BR&gt;&lt;/P&gt;
 &lt;DIV class=reCodeBlock style="BORDER-TOP: rgb(127,157,185) 1px solid; BORDER-RIGHT: rgb(127,157,185) 1px solid; BORDER-BOTTOM: rgb(127,157,185) 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; BORDER-LEFT: rgb(127,157,185) 1px solid; PADDING-RIGHT: 0px; -ms-overflow-y: auto"&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;override&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;void&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Setup()&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;2.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;{&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;3.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;base&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;.Setup();&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;4.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 24px !important"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;5.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/DIV&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;&lt;BR _moz_dirty=""&gt;&lt;/P&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;At first glance, it looks like an empty method that calls its base class's setup method. &amp;nbsp;They key here is in the base call because uFrame generates the basic bootstrapper for you. &amp;nbsp;To fully understand how its registering dependencies lets take a look at simple example of a generated setup method.&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;&lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;override&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;void&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Setup()&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;2.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;{&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;3.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;base&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;.Setup();&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;4.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 24px !important"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;5.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;}&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;&lt;/DIV&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;&lt;BR&gt;&lt;/P&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;At first glance, it looks like an empty method that calls its base class's setup method. &amp;nbsp;They key here is in the base call because uFrame generates the basic bootstrapper for you. &amp;nbsp;To fully understand how its registering dependencies lets take a look at simple example of a generated setup method.&lt;BR&gt;&lt;/P&gt;&lt;/DIV&gt;
 &lt;DIV class=sfContentBlock style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"&gt;
 &lt;DIV class=reCodeBlock style="BORDER-TOP: rgb(127,157,185) 1px solid; BORDER-RIGHT: rgb(127,157,185) 1px solid; BORDER-BOTTOM: rgb(127,157,185) 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; BORDER-LEFT: rgb(127,157,185) 1px solid; PADDING-RIGHT: 0px; -ms-overflow-y: auto"&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;override&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;void&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Setup() {&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;2.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,130,0); FONT-STYLE: normal"&gt;// Register every controller defined in the subsystems that are connected to the scene manager in the designer&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;3.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;this&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;.MyElementController =&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;new&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;MyElementController() { Container = Container, Context = Context };&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;4.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Container.RegisterInstance(&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;this&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;.MyElementController,&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;false&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;);&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;5.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Container.InjectAll(); // Inject all the controllers at once&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;6.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/DIV&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;There is more to this method than displayed but we'll talk about that in a second. &amp;nbsp;The key points to notice in the above example is line 3 and 4 where it's registering a single instance of a controller. &amp;nbsp;This means that when we call&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;override&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;void&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Setup() {&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;2.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,130,0); FONT-STYLE: normal"&gt;// Register every controller defined in the subsystems that are connected to the scene manager in the designer&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;3.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;this&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;.MyElementController =&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;new&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;MyElementController() { Container = Container, Context = Context };&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;4.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Container.RegisterInstance(&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;this&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;.MyElementController,&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;false&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;);&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;5.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Container.InjectAll(); // Inject all the controllers at once&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;6.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;}&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;&lt;/DIV&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;There is more to this method than displayed but we'll talk about that in a second. &amp;nbsp;The key points to notice in the above example is line 3 and 4 where it's registering a single instance of a controller. &amp;nbsp;This means that when we call&lt;BR&gt;&lt;/P&gt;
 &lt;DIV class=reCodeBlock style="BORDER-TOP: rgb(127,157,185) 1px solid; BORDER-RIGHT: rgb(127,157,185) 1px solid; BORDER-BOTTOM: rgb(127,157,185) 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; BORDER-LEFT: rgb(127,157,185) 1px solid; PADDING-RIGHT: 0px; -ms-overflow-y: auto"&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Container.Resolve&amp;lt;MyElementController&amp;gt;();&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/DIV&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;it will return the same instance of the controller we registered in the Setup method. &amp;nbsp;All this means is that the controller, in its own form is a Singleton. &amp;nbsp;&lt;BR&gt;&lt;BR&gt;We register these controllers in the setup method because it is important that they are ready to be used as unity loads the views and GameObjects in the scene.&lt;BR&gt;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;&lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Container.Resolve&amp;lt;MyElementController&amp;gt;();&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;&lt;/DIV&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;it will return the same instance of the controller we registered in the Setup method. &amp;nbsp;All this means is that the controller, in its own form is a Singleton. &amp;nbsp;&lt;BR&gt;&lt;BR&gt;We register these controllers in the setup method because it is important that they are ready to be used as unity loads the views and GameObjects in the scene.&lt;BR&gt;&lt;BR&gt;&lt;/P&gt;&lt;/DIV&gt;
 &lt;DIV class=sfContentBlock style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;&lt;BR _moz_dirty=""&gt;&lt;/P&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;&lt;BR&gt;&lt;/P&gt;
 &lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;Ok and now for the next part of the setup method. &amp;nbsp;The next part is where we register every single instance Element's View-Model so that they will behave like a Singleton just like all of the controllers do.&lt;BR&gt;&lt;/P&gt;
 &lt;DIV class=reCodeBlock style="BORDER-TOP: rgb(127,157,185) 1px solid; BORDER-RIGHT: rgb(127,157,185) 1px solid; BORDER-BOTTOM: rgb(127,157,185) 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; BORDER-LEFT: rgb(127,157,185) 1px solid; PADDING-RIGHT: 0px; -ms-overflow-y: auto"&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;override&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;void&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Setup() {&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;2.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,130,0); FONT-STYLE: normal"&gt;// ... the other stuff from above&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;3.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Container.RegisterInstance&amp;lt;MyElementViewModel&amp;gt;(SetupViewModel&amp;lt;MyElementViewModel&amp;gt;(MyElementController,&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: blue; FONT-STYLE: normal"&gt;"MyElement"&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;));&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;4.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;override&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;void&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Setup() {&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;2.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,130,0); FONT-STYLE: normal"&gt;// ... the other stuff from above&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;3.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 15px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;Container.RegisterInstance&amp;lt;MyElementViewModel&amp;gt;(SetupViewModel&amp;lt;MyElementViewModel&amp;gt;(MyElementController,&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: blue; FONT-STYLE: normal"&gt;"MyElement"&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;));&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;4.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;}&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;&lt;/DIV&gt;
 &lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;The key part to note here is that we are calling "SetupViewModel". &amp;nbsp;This is simply a helper method for creating Single-Instance View-Models. &amp;nbsp;This method will create the ViewModel and assign it the appropriate controller passed in the first argument if it doesn't already exist.&lt;BR&gt;&lt;BR&gt;Another to thing to note is that when we register instances with this container. &amp;nbsp;It will inject the instances with any dependencies they require. &amp;nbsp;This is done with the "Inject" attribute defined on a property or field. uFrame automatically generates controller properties inside of each controller based on the relationships to its element. &amp;nbsp;For example:&lt;BR&gt;&lt;/P&gt;
 &lt;DIV class=reCodeBlock style="BORDER-TOP: rgb(127,157,185) 1px solid; BORDER-RIGHT: rgb(127,157,185) 1px solid; BORDER-BOTTOM: rgb(127,157,185) 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; BORDER-LEFT: rgb(127,157,185) 1px solid; PADDING-RIGHT: 0px; -ms-overflow-y: auto"&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;abstract&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;class&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;CheckerBoardControllerBase : Controller {&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;2.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;3.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;[Inject]&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;CheckerController CheckerController {&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;get&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;set&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;4.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;[Inject]&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;CheckerPlateController CheckerPlateController {&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;get&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;set&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;5.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;[Inject]&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;CheckersGameController CheckersGameController {&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;get&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;set&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;6.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;7.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,130,0); FONT-STYLE: normal"&gt;//... other stuff removed for clarity&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
-&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;8.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/DIV&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;This is a generated base controller for the CheckerBoard element in the included checkers game example.&amp;nbsp;&lt;BR&gt;&lt;BR&gt;So when we register the instance of this controller. &amp;nbsp;The container will scan it looking for properties with inject attribute. &amp;nbsp;If it finds a property with the inject attribute it will "Resolve" a registered instance based on the type of the property.&lt;BR&gt;&lt;BR&gt;You could easily create your own properties and mark them with the [Inject] attribute and they will work the same way controllers do as long as you have registered it in the Setup method before the base.Setup() line is executed.&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;This basically sums up how the purpose of the Setup method and how it initializes controllers and single instance view-models on scene load. &amp;nbsp;Lets move on to what happens next after the setup method is invoked.&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
-&lt;DIV class=sf_cols style='WIDTH: 658px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -ms-zoom: 1; -webkit-text-stroke-width: 0px'&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;1.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;abstract&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;class&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;CheckerBoardControllerBase : Controller {&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;2.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;3.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;[Inject]&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;CheckerController CheckerController {&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;get&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;set&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;4.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;[Inject]&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;CheckerPlateController CheckerPlateController {&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;get&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;set&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;5.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;[Inject]&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;public&lt;/CODE&gt;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;CheckersGameController CheckersGameController {&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;get&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: bold; COLOR: rgb(0,102,153); FONT-STYLE: normal"&gt;set&lt;/CODE&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;;}&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;6.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;7.&lt;/CODE&gt;&lt;SPAN&gt;&lt;CODE style="FONT-WEIGHT: normal; FONT-STYLE: normal"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 12px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,130,0); FONT-STYLE: normal"&gt;//... other stuff removed for clarity&lt;/CODE&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;DIV style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248)"&gt;&lt;CODE style="WIDTH: 3em; FLOAT: left; FONT-WEIGHT: normal; COLOR: rgb(92,92,92); FONT-STYLE: normal; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 0.3em"&gt;8.&lt;/CODE&gt;&lt;SPAN style="MARGIN-LEFT: 0px !important"&gt;&lt;CODE style="FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal"&gt;}&lt;/CODE&gt;&lt;/SPAN&gt; &lt;/DIV&gt;&lt;/DIV&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;This is a generated base controller for the CheckerBoard element in the included checkers game example.&amp;nbsp;&lt;BR&gt;&lt;BR&gt;So when we register the instance of this controller. &amp;nbsp;The container will scan it looking for properties with inject attribute. &amp;nbsp;If it finds a property with the inject attribute it will "Resolve" a registered instance based on the type of the property.&lt;BR&gt;&lt;BR&gt;You could easily create your own properties and mark them with the [Inject] attribute and they will work the same way controllers do as long as you have registered it in the Setup method before the base.Setup() line is executed.&lt;BR&gt;&lt;/P&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;This basically sums up how the purpose of the Setup method and how it initializes controllers and single instance view-models on scene load. &amp;nbsp;Lets move on to what happens next after the setup method is invoked.&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;BR&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;DIV class=sf_cols style='WIDTH: 658px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px; -ms-zoom: 1'&gt;
 &lt;DIV class="sf_colsOut sf_1col_1_100" style="FLOAT: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"&gt;
 &lt;DIV id=contentPlaceholder_TC36A8D30008_Col00 class="sf_colsIn sf_1col_1in_100" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"&gt;
 &lt;DIV class=sfContentBlock style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"&gt;
-&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px'&gt;The Load Method&lt;/H3&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;After the setup method is called by the game-manager. &amp;nbsp;It will then call the load method coroutine that is also on the SceneManager. This is a great place to create any root views (if any) that need to be dynamically instantiated when the scene loads. &amp;nbsp;This is also a great place to load a serialized state of a game. (See:&amp;nbsp;&lt;A style="CURSOR: text; TEXT-DECORATION: none; COLOR: rgb(16,92,182)" href="http://www.invertgamestudios.com/home/element-designer/scene-state-saving-loading"&gt;Scene State Saving &amp;amp; Loading&lt;/A&gt;&amp;nbsp;)&lt;BR&gt;&lt;BR&gt;During this load method coroutines execution the Scene is also loading. &amp;nbsp;When each view loads it will call RequestViewModel on the SceneManager. &amp;nbsp;So lets take a look at whats going on here.&lt;BR&gt;&lt;BR&gt;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px'&gt;The RequestViewModel Method&lt;/H3&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;This method provides view-models to all of the views in a scene on load. &amp;nbsp;The view will pass itself, the controller it should use, as well as the identifier for the view-model as well.&amp;nbsp;&lt;BR&gt;&lt;BR&gt;Then the method will take the identifier, search for it in the context first, then in the dependency container, and if nothing is found it will create a new one. &amp;nbsp;This is why when you set the same identifier or "ResolveName" on two different views they will get the same instance of the view-model and thus both re-act as the view-model properties and collections change.&lt;BR&gt;&lt;BR&gt;&amp;nbsp;This method will always ensure that the view-model exists in the context. &amp;nbsp;This allows any view-model to be located very easily by its identifier.&amp;nbsp;&lt;BR&gt;&lt;BR&gt;As a last and final step it will check if the view is marked as "Save &amp;amp; Load". &amp;nbsp;If it is it will add it to a separated "PersitableViews" dictionary that can easily be iterated and serialized for saving and loading a scenes state.&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;In the last step before returning the requested view-model it will invoke "InitializeData" on the view which simply maps the properties specified in the view's inspector directly to the view-model. &amp;nbsp;Then it will call the Initialize{ElementName} on the controller passing the reference to the view-model. &amp;nbsp;This gives the controller the ultimate initialization power. &amp;nbsp;Anything applied in this method will override anything that has been set in the inspector.&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;After a view has received it's view-model from the scene manager, the Bind method on the view will be called which will appropriately wire up the various binding methods to the property and collection change events.&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;Note: When using uFrame InstantiateView method you can pass in a ViewModel directly in which it will skip this method entirely.&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px'&gt;The OnLoaded Method&lt;/H3&gt;
+&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px; font-size-adjust: none; font-stretch: normal'&gt;The Load Method&lt;/H3&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;After the setup method is called by the game-manager. &amp;nbsp;It will then call the load method coroutine that is also on the SceneManager. This is a great place to create any root views (if any) that need to be dynamically instantiated when the scene loads. &amp;nbsp;This is also a great place to load a serialized state of a game. (See:&amp;nbsp;&lt;A style="CURSOR: text; TEXT-DECORATION: none; COLOR: rgb(16,92,182)" href="http://www.invertgamestudios.com/home/element-designer/scene-state-saving-loading"&gt;Scene State Saving &amp;amp; Loading&lt;/A&gt;&amp;nbsp;)&lt;BR&gt;&lt;BR&gt;During this load method coroutines execution the Scene is also loading. &amp;nbsp;When each view loads it will call RequestViewModel on the SceneManager. &amp;nbsp;So lets take a look at whats going on here.&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/P&gt;
+&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px; font-size-adjust: none; font-stretch: normal'&gt;The RequestViewModel Method&lt;/H3&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;This method provides view-models to all of the views in a scene on load. &amp;nbsp;The view will pass itself, the controller it should use, as well as the identifier for the view-model as well.&amp;nbsp;&lt;BR&gt;&lt;BR&gt;Then the method will take the identifier, search for it in the context first, then in the dependency container, and if nothing is found it will create a new one. &amp;nbsp;This is why when you set the same identifier or "ResolveName" on two different views they will get the same instance of the view-model and thus both re-act as the view-model properties and collections change.&lt;BR&gt;&lt;BR&gt;&amp;nbsp;This method will always ensure that the view-model exists in the context. &amp;nbsp;This allows any view-model to be located very easily by its identifier.&amp;nbsp;&lt;BR&gt;&lt;BR&gt;As a last and final step it will check if the view is marked as "Save &amp;amp; Load". &amp;nbsp;If it is it will add it to a separated "PersitableViews" dictionary that can easily be iterated and serialized for saving and loading a scenes state.&lt;BR&gt;&lt;/P&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;In the last step before returning the requested view-model it will invoke "InitializeData" on the view which simply maps the properties specified in the view's inspector directly to the view-model. &amp;nbsp;Then it will call the Initialize{ElementName} on the controller passing the reference to the view-model. &amp;nbsp;This gives the controller the ultimate initialization power. &amp;nbsp;Anything applied in this method will override anything that has been set in the inspector.&lt;BR&gt;&lt;/P&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;After a view has received it's view-model from the scene manager, the Bind method on the view will be called which will appropriately wire up the various binding methods to the property and collection change events.&lt;BR&gt;&lt;/P&gt;
+&lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;Note: When using uFrame InstantiateView method you can pass in a ViewModel directly in which it will skip this method entirely.&lt;BR&gt;&lt;/P&gt;
+&lt;H3 style='BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; PADDING-RIGHT: 0px; font-size-adjust: none; font-stretch: normal'&gt;The OnLoaded Method&lt;/H3&gt;
 &lt;P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; PADDING-RIGHT: 0px"&gt;So after all of this has been completed the OnLoaded method will be called. &amp;nbsp;There isn't much to note about its implementation because it doesn't have one. &amp;nbsp;It is simply for your own use to know when everything has been properly loaded and the game is ready to begin.&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;
 &lt;P&gt;&lt;/P&gt;</Content>
               </TopicSection>
@@ -1614,16 +1649,27 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="c052d127-00c9-4df7-a384-577f3901d8cf" Status="New Topic" CreatedOn="2014-10-15T00:28:47.3062531Z" ModifiedOn="2014-10-15T00:28:54.190738Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Scene Manager Inspectors" BuildFlags="">
-            <Title />
-            <ContentsTitle />
+          <Topic Id="c052d127-00c9-4df7-a384-577f3901d8cf" Status="New Topic" CreatedOn="2014-10-15T00:28:47.3062531Z" ModifiedOn="2014-10-24T17:04:48.3368451Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Scene Manager Inspectors" BuildFlags="">
+            <Title m="2014-10-24T17:01:22.0586687Z">Configuring Scenes For Transitions</Title>
+            <ContentsTitle m="2014-10-24T17:01:33.3073167Z">Configuring Scenes For Transitions</ContentsTitle>
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-15T00:28:47.3062531Z">&lt;p&gt; &lt;/p&gt;</Content>
+                <Content m="2014-10-24T17:03:41.1716263Z">&lt;P&gt;For every transition there will be a generated array of scenes that define the scenes to be loaded during a transition.&amp;nbsp; This can be found by clicking on the SceneManager of the source scene and defining the target scenes to load when transitioning. For example in the below image there is a GameSceneSettings group with a list of scenes.&amp;nbsp; This is for the transition into the game scene from the main menu scene.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Snagit/SceneManagerInspector.png"&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
               </TopicSection>
             </TopicSections>
-            <TopicLinks />
+            <TopicLinks>
+              <TopicLink Id="6d135f6f-3b81-416c-82e1-4ad61c63680b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="a22c1df0-16cf-4c86-8a3c-a6a30b8eee96" BuildFlags="">
+                <Title />
+                <Category />
+              </TopicLink>
+              <TopicLink Id="4c853e5b-33f6-4c61-ad95-79ccfffad5fa" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="743c2fc4-194f-4f89-a32f-a3d9e2e70d68" BuildFlags="">
+                <Title />
+                <Category />
+              </TopicLink>
+            </TopicLinks>
             <TopicKeywords />
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
@@ -1674,15 +1720,14 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="15bc489a-f456-4def-ba39-62629d322612" Status="New Topic" CreatedOn="2014-10-16T20:40:54.0271616Z" ModifiedOn="2014-10-19T20:15:19.360452Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Element Controllers" BuildFlags="">
+          <Topic Id="15bc489a-f456-4def-ba39-62629d322612" Status="New Topic" CreatedOn="2014-10-16T20:40:54.0271616Z" ModifiedOn="2014-10-26T17:07:43.2389509Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Element Controllers" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-19T20:15:19.360452Z">&lt;P&gt;&lt;SPAN style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 14px/21px "Open Sans", Arial, sans-serif; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px; font-size-adjust: none; font-stretch: normal'&gt;&amp;nbsp;A controller is designed to implement the data-driven logic and rules behind an element and could be considered just a "group" of commands for a view-model. The Element Designer has enough information about an element to implement most of the controller itself&lt;/SPAN&gt; &lt;SPAN style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 14px/21px "Open Sans", Arial, sans-serif; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px; font-size-adjust: none; font-stretch: normal'&gt;In most instances, you only need to apply the logic and rules to each method.&amp;nbsp; Controllers also allow you to easily work with other controllers and view-models without creating any hard dependencies on the view-model class itself.&lt;/SPAN&gt;&lt;/P&gt;
-&lt;P&gt;&lt;SPAN style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 14px/21px "Open Sans", Arial, sans-serif; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px; font-size-adjust: none; font-stretch: normal'&gt;When a view-model is constructed with a controller passed to the first parameter, it will call Initialize on the controller as well for any additional initialization that you wan't to be specific to the controller.&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
-&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+                <Content m="2014-10-26T17:07:43.2389509Z">&lt;P&gt;&lt;SPAN style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 14px/21px "Open Sans", Arial, sans-serif; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;&amp;nbsp;A controller is designed to implement the data-driven logic and rules behind an element and could be considered just a "group" of commands for a view-model. The Element Designer has enough information about an element to implement most of the controller itself&lt;/SPAN&gt; &lt;SPAN style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 14px/21px "Open Sans", Arial, sans-serif; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;In most instances, you only need to apply the logic and rules to each method.&amp;nbsp; Controllers also allow you to easily work with other controllers and view-models without creating any hard dependencies on the view-model class itself.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 14px/21px "Open Sans", Arial, sans-serif; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;When a view-model is constructed with a controller passed to the first parameter, it will call Initialize on the controller as well for any additional initialization that you wan't to be specific to the controller.&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;&lt;innovasys:widget type="Include Topic" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="source"&gt;eaced210-4f32-4f73-8455-404cf8a36564&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
               </TopicSection>
             </TopicSections>
             <TopicLinks />
@@ -1690,15 +1735,14 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="5282f69d-509a-48c2-a820-5ac63a688825" Status="New Topic" CreatedOn="2014-10-16T20:41:50.018257Z" ModifiedOn="2014-10-19T20:29:20.2639375Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Element View-Models" BuildFlags="">
+          <Topic Id="5282f69d-509a-48c2-a820-5ac63a688825" Status="New Topic" CreatedOn="2014-10-16T20:41:50.018257Z" ModifiedOn="2014-10-26T17:07:33.6735554Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Element View-Models" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-19T20:29:20.2639375Z">&lt;P&gt;View-Models in the context of uFrame usually have a very minimal implementation if any at all. View-Models is simply a container for an instance of an element.&amp;nbsp; It stores data and very minimal implementation logic like computed property implementations.&lt;/P&gt;
-&lt;P&gt;View-Models are the representation of an element in code form and are meant to describe the data required by a view or views.&amp;nbsp; They are generated by the uFrame Designer to minimize the effort required to create subscribable properties and properly following the uFrame's command model.&lt;/P&gt;
-&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+                <Content m="2014-10-26T17:07:33.6735554Z">&lt;P&gt;View-Models in the context of uFrame usually have a very minimal implementation if any at all. View-Models is simply a container for an instance of an element.&amp;nbsp; It stores data and very minimal implementation logic like computed property implementations.&lt;/P&gt;
+&lt;P&gt;View-Models are the representation of an element in code form and are meant to describe the data required by a view or views.&amp;nbsp; They are generated by the uFrame Designer to minimize the effort required to create subscribable properties and properly following the uFrame's command model.&lt;/P&gt;&lt;innovasys:widget type="Include Topic" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="source"&gt;01c935c5-717a-4d66-b8e2-1064b7ac150d&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
               </TopicSection>
             </TopicSections>
             <TopicLinks />
@@ -1771,13 +1815,13 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="c30e8c87-9490-4500-96d6-6a41b786b158" Status="New Topic" CreatedOn="2014-10-16T21:22:00.0289423Z" ModifiedOn="2014-10-16T21:22:05.1385561Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="View Bindings" BuildFlags="">
+          <Topic Id="c30e8c87-9490-4500-96d6-6a41b786b158" Status="New Topic" CreatedOn="2014-10-16T21:22:00.0289423Z" ModifiedOn="2014-10-26T17:01:32.949332Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="View Bindings" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-16T21:22:00.0299434Z">&lt;p&gt; &lt;/p&gt;</Content>
+                <Content m="2014-10-26T17:01:32.949332Z">&lt;innovasys:widget type="Include Topic" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="source"&gt;68e5ef59-c521-4583-b817-6401fc77e30a&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
               </TopicSection>
             </TopicSections>
             <TopicLinks />
@@ -1846,7 +1890,7 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="abc30a82-9c31-48ef-8229-3d71b222f156" Status="New Topic" CreatedOn="2014-10-16T21:23:34.4697382Z" ModifiedOn="2014-10-17T19:34:52.0027969Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="State Machine Bindings" BuildFlags="">
+          <Topic Id="abc30a82-9c31-48ef-8229-3d71b222f156" Status="New Topic" CreatedOn="2014-10-16T21:23:34.4697382Z" ModifiedOn="2014-10-26T17:06:24.6744138Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="State Machine Bindings" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
@@ -1857,7 +1901,16 @@
 &lt;P&gt;In this example, this very basic state machine defines the high-level game play of the FPSShooter example. For each state the binding will generate methods for each state&lt;/P&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;StateMachineBinding&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;CS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; /// Subscribes to the state machine property and executes a method for each state.&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public override void WavesStateChanged(Invert.StateMachine.State value) {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; base.WavesStateChanged(value);&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public override void OnWave() {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; base.OnWave();&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public override void OnGameOver() {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; base.OnGameOver();&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; public override void OnWaitForNextWave() {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; base.OnWaitForNextWave();&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
               </TopicSection>
             </TopicSections>
-            <TopicLinks />
+            <TopicLinks>
+              <TopicLink Id="21e2c636-c987-40db-878c-4aa5f7bce540" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="e8c51d6a-5c73-463c-993e-743967b92141" BuildFlags="">
+                <Title />
+                <Category />
+              </TopicLink>
+              <TopicLink Id="0367ba43-eb80-492e-bf7b-54eb56fca50b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="c30e8c87-9490-4500-96d6-6a41b786b158" BuildFlags="">
+                <Title />
+                <Category />
+              </TopicLink>
+            </TopicLinks>
             <TopicKeywords />
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
@@ -1876,7 +1929,7 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="610cdbf6-7f3d-4106-bc73-b74e55dab5f7" Status="New Topic" CreatedOn="2014-10-17T18:21:02.5020321Z" ModifiedOn="2014-10-17T18:42:06.5506246Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="State Machines With Elements" BuildFlags="">
+          <Topic Id="610cdbf6-7f3d-4106-bc73-b74e55dab5f7" Status="New Topic" CreatedOn="2014-10-17T18:21:02.5020321Z" ModifiedOn="2014-10-26T17:05:09.0068135Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="State Machines With Elements" BuildFlags="">
             <Title />
             <ContentsTitle m="2014-10-17T18:21:52.8360034Z">Creating A State Machine</ContentsTitle>
             <Notes></Notes>
@@ -1890,6 +1943,10 @@
             </TopicSections>
             <TopicLinks>
               <TopicLink Id="bcafd49a-9d74-4101-8d40-db8b0ac3e425" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="d4b39ca7-948e-4d28-81bd-8386fe0a2f60" BuildFlags="">
+                <Title />
+                <Category />
+              </TopicLink>
+              <TopicLink Id="d97eedfc-7cdf-4fa4-a54e-466196499b2c" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="f01c64e6-c5f3-4ecc-a53b-8c753c8a299c" BuildFlags="">
                 <Title />
                 <Category />
               </TopicLink>
@@ -1915,9 +1972,9 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="c445d3d0-a7cc-4c29-9bcc-85f87c5c090c" Status="New Topic" CreatedOn="2014-10-17T18:22:30.0832877Z" ModifiedOn="2014-10-17T19:34:51.9988069Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="State Machines in Controllers" BuildFlags="">
+          <Topic Id="c445d3d0-a7cc-4c29-9bcc-85f87c5c090c" Status="New Topic" CreatedOn="2014-10-17T18:22:30.0832877Z" ModifiedOn="2014-10-26T17:05:48.9755413Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="State Machines in Controllers" BuildFlags="">
             <Title />
-            <ContentsTitle />
+            <ContentsTitle m="2014-10-26T17:05:34.7900549Z">State Machines in Controllers</ContentsTitle>
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
@@ -1935,6 +1992,10 @@
                 <Category />
               </TopicLink>
               <TopicLink Id="314d291b-2b13-438c-92ce-590cf3177ef3" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="d4b39ca7-948e-4d28-81bd-8386fe0a2f60" BuildFlags="">
+                <Title />
+                <Category />
+              </TopicLink>
+              <TopicLink Id="fbe22bc8-2b58-47a7-a037-fa974f66f62d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="f01c64e6-c5f3-4ecc-a53b-8c753c8a299c" BuildFlags="">
                 <Title />
                 <Category />
               </TopicLink>
@@ -1979,25 +2040,25 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="c5917965-7b52-4578-930d-0561db7d148f" Status="New Topic" CreatedOn="2014-10-19T20:02:13.3088176Z" ModifiedOn="2014-10-19T20:02:57.0363108Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="uFrame Of Mind" BuildFlags="">
+          <Topic Id="c5917965-7b52-4578-930d-0561db7d148f" Status="New Topic" CreatedOn="2014-10-19T20:02:13.3088176Z" ModifiedOn="2014-10-26T16:49:29.2404956Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="uFrame Of Mind" BuildFlags="">
             <Title />
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-19T20:02:57.0363108Z">&lt;SPAN style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;The UFrame Of Mind.&lt;/SPAN&gt;&lt;SPAN style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 14px/21px "Open Sans", Arial, sans-serif; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;&lt;/SPAN&gt;
-&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;uFrame, specifically created for the Unity game engine, uses a pattern-based framework called MVVM (Model View ViewModel). It is designed to provide developers with the visual editing tools, code structure and knowledge to develop games faster and more efficiently. This “frame of mind” for creating games is different than what most Unity developers are used to, but once understood the possibilities of where an idea can go are limitless. So, let’s jump right into the “uFrame of mind”!&amp;nbsp;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;H3 style='WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;Making Things Simple.&lt;/H3&gt;
-&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;Far too often game development begins with throwing a bunch of random game objects and components together and then retrofitting code in hopes of creating a masterpiece. Teams fail to focus on the basic concepts first and are left with trying to assemble pieces of a project that don’t quite fit together. Doesn’t make much sense does it?&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;uFrame simplifies things by separating out the essential and peripheral parts of the Unity’s component model. It eliminates the visual noise (user-interface, HUD, transformers, positions, rotations, working with geometry, shaders, pathfinders, mouse events etc.) that can overwhelm and discourage many developers, and allows them to initially focus on the core logic.&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;uFrame does this with the use of&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;Elements&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;. Each element in a game has different parts, which consists of the ViewModel, Controller, View and possibly the View Component. A&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;ViewModel&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;serves as interface between the visual entities and logic of the game. These entities include properties (Score, Ammo, etc.), collections (Players, Environments etc.), and commands (PlayerHit, Upgrade etc.). A&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;Controller&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;works with a ViewModel to initialize and modify data when a command is invoked and/or interaction occurs between an event and the user.&amp;nbsp;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;H3 style='WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;Always Consider Portability.&amp;nbsp;&lt;/H3&gt;
-&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;In uFrame, both the Controller and the ViewModel are "portable" parts of a game. This means taking them outside of Unity and putting them into a separate environment, such as a terminal application or web server, will never be an issue. In fact, this is essential to providing proper support for the extended features of uFrame and is enforced by the Element Designer (which limit the types that are available). This should always be taken into consideration when developing or extending Controllers or ViewModels.&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;&lt;STRONG&gt;Note:&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;Even if a game doesn't need portability it is still good to think in these terms. uFrame is built around this concept, which allows each piece to fit together more naturally.&amp;nbsp;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;H3 style='WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;Making The Noise Sing.&lt;/H3&gt;
-&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;The other two parts of the element, the View and the View Component, connect the game logic with the visual noise. They are the key components that connect Unity to the Controllers and ViewModels, bringing the game to life.&amp;nbsp;A&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;View Component&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;can read and modify the real-time data of a ViewModel, but isn’t necessary for every element. It is only meant to provide an extra level of extendibility when needed. A&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;View&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;(which is technically a View Component, but with a larger role) binds to an element’s data so that it’s notified when something is changed. When these changes occur, it directs the View Component to execute the appropriate action. Views also execute the commands of events and interactions that occur in the scene (e.g. Collision, MouseClick, Hover).&amp;nbsp;&lt;BR _moz_dirty="true"&gt;&lt;/P&gt;
-&lt;H3 style='WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;Naming Things.&lt;/H3&gt;
-&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px'&gt;When creating elements, particularly element commands, it’s important to think about how things are being named. For instance, if a player can pick up an item when a game object collides with it and when the player clicks on it, then a developer would want to create a label such as “PickUpItem,” that describes both commands. This would more broadly explain its function and allow for items to be collected in a different way, if the developer so chooses.&amp;nbsp;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+                <Content m="2014-10-26T16:49:29.2404956Z">&lt;SPAN style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;The UFrame Of Mind.&lt;/SPAN&gt; 
+&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;uFrame, specifically created for the Unity game engine, uses a pattern-based framework called MVVM (Model View ViewModel). It is designed to provide developers with the visual editing tools, code structure and knowledge to develop games faster and more efficiently. This “frame of mind” for creating games is different than what most Unity developers are used to, but once understood the possibilities of where an idea can go are limitless. So, let’s jump right into the “uFrame of mind”!&amp;nbsp;&lt;BR&gt;&lt;/P&gt;
+&lt;H3 style='WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;Making Things Simple.&lt;/H3&gt;
+&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;Far too often game development begins with throwing a bunch of random game objects and components together and then retrofitting code in hopes of creating a masterpiece. Teams fail to focus on the basic concepts first and are left with trying to assemble pieces of a project that don’t quite fit together. Doesn’t make much sense does it?&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;BR&gt;&lt;/P&gt;
+&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;uFrame simplifies things by separating out the essential and peripheral parts of the Unity’s component model. It eliminates the visual noise (user-interface, HUD, transformers, positions, rotations, working with geometry, shaders, pathfinders, mouse events etc.) that can overwhelm and discourage many developers, and allows them to initially focus on the core logic.&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;BR&gt;&lt;/P&gt;
+&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;uFrame does this with the use of&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;Elements&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;. Each element in a game has different parts, which consists of the ViewModel, Controller, View and possibly the View Component. A&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;ViewModel&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;serves as interface between the visual entities and logic of the game. These entities include properties (Score, Ammo, etc.), collections (Players, Environments etc.), and commands (PlayerHit, Upgrade etc.). A&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;Controller&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;works with a ViewModel to initialize and modify data when a command is invoked and/or interaction occurs between an event and the user.&amp;nbsp;&lt;BR&gt;&lt;/P&gt;
+&lt;H3 style='WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;Always Consider Portability.&amp;nbsp;&lt;/H3&gt;
+&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;In uFrame, both the Controller and the ViewModel are "portable" parts of a game. This means taking them outside of Unity and putting them into a separate environment, such as a terminal application or web server, will never be an issue. In fact, this is essential to providing proper support for the extended features of uFrame and is enforced by the Element Designer (which limit the types that are available). This should always be taken into consideration when developing or extending Controllers or ViewModels.&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;BR&gt;&lt;/P&gt;
+&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;&lt;STRONG&gt;Note:&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;Even if a game doesn't need portability it is still good to think in these terms. uFrame is built around this concept, which allows each piece to fit together more naturally.&amp;nbsp;&lt;BR&gt;&lt;/P&gt;
+&lt;H3 style='WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;Making The Noise Sing.&lt;/H3&gt;
+&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;The other two parts of the element, the View and the View Component, connect the game logic with the visual noise. They are the key components that connect Unity to the Controllers and ViewModels, bringing the game to life.&amp;nbsp;A&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;View Component&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;can read and modify the real-time data of a ViewModel, but isn’t necessary for every element. It is only meant to provide an extra level of extendibility when needed. A&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG&gt;View&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;(which is technically a View Component, but with a larger role) binds to an element’s data so that it’s notified when something is changed. When these changes occur, it directs the View Component to execute the appropriate action. Views also execute the commands of events and interactions that occur in the scene (e.g. Collision, MouseClick, Hover).&amp;nbsp;&lt;BR&gt;&lt;/P&gt;
+&lt;H3 style='WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: rgb(204,204,204) 1px solid; TEXT-TRANSFORM: capitalize; COLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: bold 1.28em/1.4em "Open Sans", sans-serif; PADDING-LEFT: 0px; MARGIN: 30px 0px 10px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;Naming Things.&lt;/H3&gt;
+&lt;P style='WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; FONT: 14px/21px "Open Sans", Arial, sans-serif; PADDING-LEFT: 0px; MARGIN: 0px 0px 18px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-size-adjust: none; font-stretch: normal; -webkit-text-stroke-width: 0px'&gt;When creating elements, particularly element commands, it’s important to think about how things are being named. For instance, if a player can pick up an item when a game object collides with it and when the player clicks on it, then a developer would want to create a label such as “PickUpItem,” that describes both commands. This would more broadly explain its function and allow for items to be collected in a different way, if the developer so chooses.&amp;nbsp;&lt;SPAN class=Apple-converted-space&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
 &lt;P&gt;&lt;/P&gt;</Content>
               </TopicSection>
             </TopicSections>
@@ -2046,7 +2107,162 @@
       <TopicCategory Id="CONTENTSNIPPETS" AutoIndex="false">
         <Caption m="2014-10-13T18:12:28.499194Z">Content Snippets</Caption>
         <ChildTopicCategories />
-        <Topics />
+        <Topics>
+          <Topic Id="68e5ef59-c521-4583-b817-6401fc77e30a" Status="New Topic" CreatedOn="2014-10-26T16:59:13.8733297Z" ModifiedOn="2014-10-26T16:59:13.8843367Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="ViewBindingsTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:59:13.8843367Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;BM6Tk-LP5aA&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="77179974-f5b3-4f1d-bd6a-d7ee12b89715" Status="New Topic" CreatedOn="2014-10-26T16:59:30.9587547Z" ModifiedOn="2014-10-26T16:59:30.96676Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="ComputedPropertiesTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:59:30.96676Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;mkyQF2TS5Jg&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="ac02c824-522e-4b62-a062-98e1cf116192" Status="New Topic" CreatedOn="2014-10-26T16:59:44.962119Z" ModifiedOn="2014-10-26T16:59:44.9701243Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="InheritanceTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:59:44.9701243Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;sUFKP9xCIq8&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="9c6b6b45-9f02-4815-af20-7c125862d330" Status="New Topic" CreatedOn="2014-10-26T17:00:03.8847729Z" ModifiedOn="2014-10-26T17:00:03.8917772Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="1-5OverviewTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T17:00:03.8917772Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;KJLOjIlTkNo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="6cc6108f-c86f-4693-adcd-82f6ca177009" Status="New Topic" CreatedOn="2014-10-26T17:00:19.4381751Z" ModifiedOn="2014-10-26T17:00:19.4451784Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="ScenePropertiesTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T17:00:19.4451784Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;QVEukPmN3pU&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="c3d6baf8-2a3f-4530-b278-a693a7d95485" Status="New Topic" CreatedOn="2014-10-26T17:00:31.3191194Z" ModifiedOn="2014-10-26T17:00:31.3261234Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="ReactiveStateMachinesTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T17:00:31.3261234Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;QE_TYbnWs4I&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="94d9d41a-43c1-4d1f-ab40-e4914ad1663a" Status="New Topic" CreatedOn="2014-10-26T17:00:43.035954Z" ModifiedOn="2014-10-26T17:00:43.0429587Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="SubsystemsTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T17:00:43.0429587Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;RdcKynXfZyU&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="9bb84e0c-15b6-497f-aeb0-3052e917c2c5" Status="New Topic" CreatedOn="2014-10-26T17:00:54.4926156Z" ModifiedOn="2014-10-26T17:00:54.5006203Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="TargetingSystemTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T17:00:54.4996196Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;Xh9x9EoZb7E&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="01c935c5-717a-4d66-b8e2-1064b7ac150d" Status="New Topic" CreatedOn="2014-10-26T17:01:04.8525431Z" ModifiedOn="2014-10-26T17:01:04.8595475Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="ViewModelsTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T17:01:04.8595475Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;pBfaELnve9M&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="eaced210-4f32-4f73-8455-404cf8a36564" Status="New Topic" CreatedOn="2014-10-26T17:07:24.2432485Z" ModifiedOn="2014-10-26T17:07:32.05147Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="ControllersTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T17:07:24.2432485Z">&lt;p&gt; &lt;/p&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="31270023-32c3-4b70-aa3e-7a1e2cb49911" Status="New Topic" CreatedOn="2014-10-26T18:08:57.9102703Z" ModifiedOn="2014-10-26T18:09:11.9206386Z" PageTypeName="for include.html" AutoIndex="true" HelpContextIds="" Name="SceneManagersTutorial" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},{46CEF21D-3301-4517-A875-A0906828390E}">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T18:09:11.9206386Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;OZuZbGcMWOc&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+        </Topics>
       </TopicCategory>
       <TopicCategory Id="aa2c5e43-7df2-4f88-b66c-6613c6f1bbb1" AutoIndex="true">
         <Caption m="2014-10-13T18:14:15.02743Z">Subsystems</Caption>
@@ -2135,6 +2351,167 @@
         <ChildTopicCategories />
         <Topics />
       </TopicCategory>
+      <TopicCategory Id="21cbb0fb-46c4-47d5-bce8-c4fab87a70c7" AutoIndex="false">
+        <Caption m="2014-10-24T17:22:49.9643772Z">Video Tutorials</Caption>
+        <ChildTopicCategories />
+        <Topics>
+          <Topic Id="e8c51d6a-5c73-463c-993e-743967b92141" Status="New Topic" CreatedOn="2014-10-26T16:49:46.0437322Z" ModifiedOn="2014-10-26T16:50:12.6034932Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="View Bindings Tutorial" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:50:12.6034932Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;BM6Tk-LP5aA&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="cfb007ad-c46a-4db4-a5b9-3d863d67be01" Status="New Topic" CreatedOn="2014-10-26T16:50:36.7266251Z" ModifiedOn="2014-10-26T16:50:59.9841778Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Computed Properties Tutorial" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:50:59.9841778Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;mkyQF2TS5Jg&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="981f89d2-5b0d-4ceb-baff-5707b805ffe3" Status="New Topic" CreatedOn="2014-10-26T16:51:03.0362188Z" ModifiedOn="2014-10-26T16:52:53.3559916Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Inheritance Tutorial" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:51:34.328145Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;sUFKP9xCIq8&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="258a43a6-826c-4f5e-8575-c2f96a1b5900" Status="New Topic" CreatedOn="2014-10-26T16:51:39.1603753Z" ModifiedOn="2014-10-26T16:52:07.9676393Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="uFrame 1.5 Overview" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:52:07.9676393Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;KJLOjIlTkNo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="31e4332e-ad04-444a-a94d-03c018e4cccd" Status="New Topic" CreatedOn="2014-10-26T16:52:27.5427298Z" ModifiedOn="2014-10-26T16:53:38.6652908Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Scene Properties Tutorial" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:53:38.6652908Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;QVEukPmN3pU&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="f01c64e6-c5f3-4ecc-a53b-8c753c8a299c" Status="New Topic" CreatedOn="2014-10-26T16:53:12.6919219Z" ModifiedOn="2014-10-26T16:53:38.6742964Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Reactive State Machines Tutorial" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:53:38.6742964Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;QE_TYbnWs4I&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="91afe810-6a1b-40cf-ad84-1e54797bdb67" Status="New Topic" CreatedOn="2014-10-26T16:53:53.5102175Z" ModifiedOn="2014-10-26T16:54:23.7064102Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Subsystems Tutorial" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:54:23.7064102Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;RdcKynXfZyU&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="1acbb409-eed7-49e9-b884-b99016e5ec36" Status="New Topic" CreatedOn="2014-10-26T16:54:52.4036012Z" ModifiedOn="2014-10-26T16:55:18.1618259Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="View Components - Targeting System Tutorial" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:55:18.1618259Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;Xh9x9EoZb7E&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="abc5a31a-ca02-487d-8809-187acdc81fe8" Status="New Topic" CreatedOn="2014-10-26T16:55:59.0121432Z" ModifiedOn="2014-10-26T16:56:13.7209793Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="View Models Tutorial" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T16:56:13.7209793Z">&lt;innovasys:widget type="Movie (YouTube)" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Movieid"&gt;pBfaELnve9M&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoplay"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Showrelated"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Autoresize"&gt;False&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Width"&gt;640&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Height"&gt;390&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Theme"&gt;dark&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="04c14482-98e8-40bf-97e6-7409cde33af1" Status="New Topic" CreatedOn="2014-10-26T17:08:10.2440101Z" ModifiedOn="2014-10-26T17:08:45.5546226Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="uFrame 1.5 Overview Video" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T17:08:45.5546226Z">&lt;innovasys:widget type="Include Topic" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="source"&gt;9c6b6b45-9f02-4815-af20-7c125862d330&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="549bf522-56d1-49f5-8390-55d7e756a53e" Status="New Topic" CreatedOn="2014-10-26T18:09:18.5540748Z" ModifiedOn="2014-10-26T18:09:30.6791827Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Scene Managers Tutorial" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2014-10-26T18:09:30.6791827Z">&lt;innovasys:widget type="Include Topic" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="source"&gt;31270023-32c3-4b70-aa3e-7a1e2cb49911&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+        </Topics>
+      </TopicCategory>
     </TopicCategories>
     <CustomTopicPropertyDefinitions />
     <PropertyDefinitionValues />
@@ -2145,7 +2522,7 @@
     <IncludeTopicNameInTitle>false</IncludeTopicNameInTitle>
     <TopicEditorState>
       <Attributes>
-        <Attribute key="scrollPosition" valuetype="integer">380</Attribute>
+        <Attribute key="scrollPosition" valuetype="integer">201</Attribute>
       </Attributes>
     </TopicEditorState>
   </TopicsProjectPlugin>
@@ -2339,55 +2716,6 @@
         <GroupExamples>false</GroupExamples>
         <ColorizeSyntax>true</ColorizeSyntax>
       </Ajax>
-      <Java>
-        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
-        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
-        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
-        <UseXmlCommentFile>true</UseXmlCommentFile>
-        <NoInheritedInLists>false</NoInheritedInLists>
-        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
-        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
-        <IncludePrivateMembers>false</IncludePrivateMembers>
-        <IncludeFriendMembers>false</IncludeFriendMembers>
-        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
-        <IncludeProtectedMembers>true</IncludeProtectedMembers>
-        <XmlIsland></XmlIsland>
-        <XmlCommentUsage>Merge</XmlCommentUsage>
-        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
-          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
-          <DiagramStyle>
-            <CommonStyle OuterMargin="10" ShareSize="true">
-              <IsNewBrush>#FFFF0000</IsNewBrush>
-              <IsNewSize>10</IsNewSize>
-              <UseDropShadow>false</UseDropShadow>
-              <DropShadowOpacity>0.3</DropShadowOpacity>
-              <DropShadowDepth>3</DropShadowDepth>
-              <DropShadowColor>#FF000000</DropShadowColor>
-              <DropShadowDirection>300</DropShadowDirection>
-              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
-            </CommonStyle>
-            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
-            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
-          </DiagramStyle>
-          <DiagramRelationshipsFrom>MethodsOnly</DiagramRelationshipsFrom>
-          <IncludeFields>false</IncludeFields>
-          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
-        </DiagramSettings>
-        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
-        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
-        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
-        <RootProjectName></RootProjectName>
-        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
-        <TemplateName>2012 Style</TemplateName>
-        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
-        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
-        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
-        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
-        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
-        <IncludeCodeContracts>false</IncludeCodeContracts>
-        <GroupExamples>false</GroupExamples>
-        <ColorizeSyntax>true</ColorizeSyntax>
-      </Java>
       <Com>
         <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
         <UseHelpStrings>true</UseHelpStrings>
@@ -2587,5 +2915,6 @@
     <EncodingCulture></EncodingCulture>
     <IsEnhancedWordBreakAnalysisEnabled>false</IsEnhancedWordBreakAnalysisEnabled>
   </PrimaryLocale>
+  <JavaProjectPlugin />
   <IsNewProject>false</IsNewProject>
 </DocumentXProject>
