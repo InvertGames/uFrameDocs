@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImageMap>
+  <IsExcludeBackgroundImageFromOutputEnabled>true</IsExcludeBackgroundImageFromOutputEnabled>
+  <BackgroundImageFileName>LoadingScreenSceneDetails.png</BackgroundImageFileName>
+  <OutputFileName>LoadingScreenSceneDetails_markedup.png</OutputFileName>
+  <AddOutputImagesToProject>true</AddOutputImagesToProject>
+  <DefaultFontFamily>Verdana</DefaultFontFamily>
+  <DefaultFontSize>12</DefaultFontSize>
+  <DefaultForeground>#FFF5F5F5</DefaultForeground>
+  <DefaultBackground>#FF000000</DefaultBackground>
+  <BuildThumbnail>true</BuildThumbnail>
+  <ThumbnailSize>
+    <Width>197.1</Width>
+    <Height>156</Height>
+  </ThumbnailSize>
+  <AddDropShadow>false</AddDropShadow>
+  <DropShadowEffect IsXaml="true">
+    <DropShadowEffect ShadowDepth="5" Color="#FF808080" Direction="315" Opacity="0.7" BlurRadius="7" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+  </DropShadowEffect>
+  <MarkupItems>
+    <MarkupItem AnnotationPosition="Left" Layer="1" Opacity="1" OutputAsImage="false" Rotation="0" FontFamily="Verdana" FontWeight="Normal" FontStyle="Normal" FontSize="12" BorderThickness="2" MaxContentWidth="500" MaxContentHeight="300" OutputFileName="LoadingScreenSceneDetails_markedup-MarkupItem.png" Type="Innovasys.ContentAuthoring.ImageMarkup.Annotation" Assembly="Innovasys.ContentAuthoring.ImageMarkup">
+      <CornerRadius>5,5,5,5</CornerRadius>
+      <Position>26,449,245,60</Position>
+      <Background>#FF000000</Background>
+      <Content>Destroys Game-Object When Loading is complete</Content>
+      <Foreground>#FFF5F5F5</Foreground>
+      <Padding>11,4,11,4</Padding>
+      <BorderBrush>#FF808080</BorderBrush>
+    </MarkupItem>
+  </MarkupItems>
+</ImageMap>

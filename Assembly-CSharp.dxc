@@ -1,9 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentFile Version="2010" Moniker="..\Temp\UnityVS_bin\Release\Assembly-CSharp.dll" DocType="DX.NET" IsLocalizationDisabled="false">
+<ContentFile Version="2010" Moniker="..\..\uFrameGit\Temp\UnityVS_bin\Release\Assembly-CSharp.dll" DocType="DX.NET" IsLocalizationDisabled="false">
   <RelatedProject>uFrameDocs.dxp</RelatedProject>
   <State>
     <Attributes />
   </State>
-  <LastSelectedItem />
-  <Filters />
+  <LastSelectedItem></LastSelectedItem>
+  <Filters>
+    <CONTENTSTORECOMMON>
+      <IsIncludedItemsOnly>true</IsIncludedItemsOnly>
+    </CONTENTSTORECOMMON>
+    <CONTENTSTORELOCALIZATION>
+      <IsPrimaryLocaleContentPreviewEnabled>true</IsPrimaryLocaleContentPreviewEnabled>
+    </CONTENTSTORELOCALIZATION>
+    <DX.NETCONTENTSTOREFILTER>
+      <ShowProtectedMembers>true</ShowProtectedMembers>
+      <ShowProtectedFriendMembers>true</ShowProtectedFriendMembers>
+      <ShowFriendMembers>false</ShowFriendMembers>
+      <ShowPrivateMembers>false</ShowPrivateMembers>
+      <ShowInheritedMembers>false</ShowInheritedMembers>
+      <IsSourceCodeContentVisible>true</IsSourceCodeContentVisible>
+    </DX.NETCONTENTSTOREFILTER>
+  </Filters>
 </ContentFile>
