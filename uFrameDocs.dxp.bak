@@ -473,13 +473,14 @@
   <JavascriptProjectPlugin />
   <ComProjectPlugin />
   <AjaxProjectPlugin />
+  <JavaProjectPlugin />
   <DotNetAssemblies>
     <ReferencePaths>
       <ReferencePath Id="165169b5-6f3f-45d0-8682-59057042ca99" Name="Mono.Security" Directory="C:\Program Files (x86)\Unity\MonoDevelop\bin" />
       <ReferencePath Id="edb53066-808a-4aa7-a287-fd0f6ad9245e" Name="UnityEngine" Directory="..\..\uFrameGit\Library\UnityAssemblies" />
       <ReferencePath Id="8a770bed-1d75-401c-92d5-304bc5f18c69" Name="Parse.Unity" Directory="..\..\uFrameGit\Assets\uFramePlayground\ParseComPlugin" />
     </ReferencePaths>
-    <Assembly FileName="..\..\uFrameGit\Temp\UnityVS_bin\Release\Assembly-CSharp.dll" RootTypeName="" />
+    <Assembly FileName="..\..\uFrameGit\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll" RootTypeName="" />
   </DotNetAssemblies>
   <DatabaseProjectPlugin>
     <Databases />
@@ -551,6 +552,11 @@
       <OtherFile Id="311f7e33-4b5e-4395-84f2-685c13d6e197" FileName="images\Snagit\UseRegisteredInstance.png" SourceData="" BuildFlags="" />
       <OtherFile Id="3508de37-3b50-4f78-b1e7-cc2ad66accd9" FileName="images\Snagit\Inheritance.png" SourceData="" BuildFlags="" />
       <OtherFile Id="4ba5bb0c-4ef3-4ed6-bdc8-62c2579b8079" FileName="images\Snagit\StandardCollectionBinding.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="cd26a8ae-6d0b-497e-9ed2-e4f65a412686" FileName="Snags\Bindings.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="63b6c1bd-3b9c-40fd-b386-6429b28c263c" FileName="Snags\ElementGraph.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="91a3d432-f5a5-4f12-b261-b52d46814b95" FileName="Snags\StandardGraph.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="d2a4f19f-bd66-466c-b2d5-ebdfd62a937d" FileName="Snags\StateMachine.png" SourceData="" BuildFlags="" />
+      <OtherFile Id="e4d68443-26ad-47c9-a9ea-47e3c7f106ce" FileName="Snags\Subsystem.png" SourceData="" BuildFlags="" />
     </OtherFiles>
     <DefaultStylesheet>stylesheets\customstyles.css</DefaultStylesheet>
     <DefaultCaptureDirectory></DefaultCaptureDirectory>
@@ -1061,6 +1067,19 @@
               <TargetItemId>a76df40e-954c-4908-be01-65a4cb724925</TargetItemId>
               <TargetItemBookmark></TargetItemBookmark>
             </TocNode>
+            <TocNode Name="" Id="6b648726-e16c-4b9a-9911-325ae22e0bd0" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+              <CaptionTemplate />
+              <ChildNodes>
+                <TocNode Name="" Id="98d63997-656a-45cf-9a58-ef817076381a" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeName="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" NodeType="PROJECTITEM">
+                  <CaptionTemplate />
+                  <ChildNodes />
+                  <TargetItemId>86c9f298-3f7e-4cf8-beb4-fc5550dcfdfa</TargetItemId>
+                  <TargetItemBookmark></TargetItemBookmark>
+                </TocNode>
+              </ChildNodes>
+              <TargetItemId>68250d2c-ebe7-4a11-905d-e893615d1d96</TargetItemId>
+              <TargetItemBookmark></TargetItemBookmark>
+            </TocNode>
           </ChildNodes>
         </TocNode>
         <TocNode Name="" Id="c1061419-c047-49f0-afe5-cb28e5526af7" IconIndex="-1" IsNew="false" Target="" DependsOnItemTypeFilter="" DependsOnMinimumCount="0" DependsOnStillProcessChildNodes="false" BuildFlags="" DependsOnItemTypeName="" NodeType="ALLTEMPLATETOCS">
@@ -1546,13 +1565,13 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
-          <Topic Id="33c7a085-1434-44ce-9c2e-3ae7c10cfe62" Status="New Topic" CreatedOn="2014-10-13T21:18:41.3708415Z" ModifiedOn="2014-11-01T15:26:28.0824788Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Element Diagrams" BuildFlags="">
+          <Topic Id="33c7a085-1434-44ce-9c2e-3ae7c10cfe62" Status="New Topic" CreatedOn="2014-10-13T21:18:41.3708415Z" ModifiedOn="2014-11-03T16:22:00.5605814Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Element Diagrams" BuildFlags="">
             <Title m="2014-11-01T15:26:28.0815034Z">Element Graphs</Title>
             <ContentsTitle />
             <Notes></Notes>
             <TopicSections>
               <TopicSection Name="BodyText">
-                <Content m="2014-10-13T21:18:41.3708415Z">&lt;p&gt; &lt;/p&gt;</Content>
+                <Content m="2014-11-03T16:22:00.5605814Z">&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
               </TopicSection>
             </TopicSections>
             <TopicLinks />
@@ -2572,6 +2591,34 @@
             <PropertyDefinitionValues />
             <ExcludedOtherFiles />
           </Topic>
+          <Topic Id="68250d2c-ebe7-4a11-905d-e893615d1d96" Status="New Topic" CreatedOn="2015-01-06T21:37:11.8759484Z" ModifiedOn="2015-01-06T21:37:17.0724248Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="Aahz" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2015-01-06T21:37:11.881949Z">&lt;p&gt; &lt;/p&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
+          <Topic Id="86c9f298-3f7e-4cf8-beb4-fc5550dcfdfa" Status="New Topic" CreatedOn="2015-01-06T21:37:57.4054077Z" ModifiedOn="2015-01-06T21:46:01.2298762Z" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="NewTopic8" BuildFlags="">
+            <Title />
+            <ContentsTitle />
+            <Notes></Notes>
+            <TopicSections>
+              <TopicSection Name="BodyText">
+                <Content m="2015-01-06T21:46:01.2298762Z">&lt;P&gt;&lt;IMG border=0 alt="" src="Snags/StandardGraph.png"&gt;&lt;/P&gt;</Content>
+              </TopicSection>
+            </TopicSections>
+            <TopicLinks />
+            <TopicKeywords />
+            <PropertyDefinitionValues />
+            <ExcludedOtherFiles />
+          </Topic>
         </Topics>
       </TopicCategory>
       <TopicCategory Id="CONTENTSNIPPETS" AutoIndex="false">
@@ -3311,6 +3358,55 @@
         <GroupExamples>false</GroupExamples>
         <ColorizeSyntax>true</ColorizeSyntax>
       </Ajax>
+      <Java>
+        <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
+        <IncludeInheritanceHierarchies>true</IncludeInheritanceHierarchies>
+        <NoInheritedMemberTopicsInternal>true</NoInheritedMemberTopicsInternal>
+        <UseXmlCommentFile>true</UseXmlCommentFile>
+        <NoInheritedInLists>false</NoInheritedInLists>
+        <IncludeBreadcrumbs>true</IncludeBreadcrumbs>
+        <IncludeProjectBreadcrumb>false</IncludeProjectBreadcrumb>
+        <IncludePrivateMembers>false</IncludePrivateMembers>
+        <IncludeFriendMembers>false</IncludeFriendMembers>
+        <IncludeProtectedFriendMembers>false</IncludeProtectedFriendMembers>
+        <IncludeProtectedMembers>true</IncludeProtectedMembers>
+        <XmlIsland></XmlIsland>
+        <XmlCommentUsage>Merge</XmlCommentUsage>
+        <DiagramSettings OverviewNestingLevels="3" PageNestingLevels="2" DiagramStyleSource="Template">
+          <SuppressSingleObjectDiagrams>false</SuppressSingleObjectDiagrams>
+          <DiagramStyle>
+            <CommonStyle OuterMargin="10" ShareSize="true">
+              <IsNewBrush>#FFFF0000</IsNewBrush>
+              <IsNewSize>10</IsNewSize>
+              <UseDropShadow>false</UseDropShadow>
+              <DropShadowOpacity>0.3</DropShadowOpacity>
+              <DropShadowDepth>3</DropShadowDepth>
+              <DropShadowColor>#FF000000</DropShadowColor>
+              <DropShadowDirection>300</DropShadowDirection>
+              <Connector Brush="#FF808080" Thickness="1.5" StyleName="Solid" Indent="30" />
+            </CommonStyle>
+            <ObjectItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+            <CollectionItemStyle Font="Tahoma" FontSize="12" FontBrush="#FF000000" FontWeight="Normal" FontStyle="Normal" TextPadding="5" HorizontalAlignment="Left" BackgroundBrush="#FFADD8E6" BorderBrush="#FF808080" BorderThickness="0" EndCap="Rounded" />
+          </DiagramStyle>
+          <DiagramRelationshipsFrom>MethodsOnly</DiagramRelationshipsFrom>
+          <IncludeFields>false</IncludeFields>
+          <DiagramDefaultCollectionMemberOnly>false</DiagramDefaultCollectionMemberOnly>
+        </DiagramSettings>
+        <UseOverloadSummaryForMasterSummary>true</UseOverloadSummaryForMasterSummary>
+        <LinkOverriddenMembersToBaseImplementation>false</LinkOverriddenMembersToBaseImplementation>
+        <GenericIndicator>ArgumentsInBrackets</GenericIndicator>
+        <RootProjectName></RootProjectName>
+        <IncludeConstructorsOnAbstractTypes>false</IncludeConstructorsOnAbstractTypes>
+        <TemplateName>2012 Style</TemplateName>
+        <ExcludeAllPrivateTypes>true</ExcludeAllPrivateTypes>
+        <ExcludeAllFriendTypes>true</ExcludeAllFriendTypes>
+        <ExcludeAllProtectedTypes>false</ExcludeAllProtectedTypes>
+        <ExcludeAllProtectedFriendTypes>false</ExcludeAllProtectedFriendTypes>
+        <IncludeMemberIndexKeywords>false</IncludeMemberIndexKeywords>
+        <IncludeCodeContracts>false</IncludeCodeContracts>
+        <GroupExamples>false</GroupExamples>
+        <ColorizeSyntax>true</ColorizeSyntax>
+      </Java>
       <Com>
         <IncludeRelationshipDiagrams>true</IncludeRelationshipDiagrams>
         <UseHelpStrings>true</UseHelpStrings>
@@ -3437,6 +3533,8 @@
           <IsOptionsVisible>true</IsOptionsVisible>
           <IsPrintVisible>true</IsPrintVisible>
           <IsZoomVisible>false</IsZoomVisible>
+          <IsPreviousVisible>false</IsPreviousVisible>
+          <IsNextVisible>false</IsNextVisible>
           <NavigationPaneWidth>200</NavigationPaneWidth>
           <IsNavigationPaneInitiallyClosed>false</IsNavigationPaneInitiallyClosed>
           <IsAutoSyncWithTocEnabled>true</IsAutoSyncWithTocEnabled>
@@ -3498,7 +3596,7 @@
         <IsOtherHeadContentEnabled>false</IsOtherHeadContentEnabled>
         <OtherHeadContent></OtherHeadContent>
       </OtherFiles>
-      <OutputDirectory></OutputDirectory>
+      <OutputDirectory>..\..\..\InvertWeb\InvertWeb4\uFrameAPI\Default</OutputDirectory>
     </ProjectProfile>
   </ProjectProfiles>
   <HelpContextIDHeaderFile></HelpContextIDHeaderFile>
@@ -3510,6 +3608,5 @@
     <EncodingCulture></EncodingCulture>
     <IsEnhancedWordBreakAnalysisEnabled>false</IsEnhancedWordBreakAnalysisEnabled>
   </PrimaryLocale>
-  <JavaProjectPlugin />
   <IsNewProject>false</IsNewProject>
 </DocumentXProject>

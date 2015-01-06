@@ -1179,7 +1179,7 @@ function resolveHelp2Keyword(Keyword, OnlineKeyword) {
         if (URL != "") {
             return URL;
         }
-        // For future proofing, try other VSCC namespaces
+            // For future proofing, try other VSCC namespaces
         else {
             var RegistryWalker = new ActiveXObject("HxDs.HxRegistryWalker");
             var Namespaces = RegistryWalker.RegisteredNamespaceList("MS.VSCC");
@@ -1241,10 +1241,12 @@ function navigateToHelp2Keyword(Keyword, OnlineKeyword, ReplacePage) {
     window.status = "Resolving link. Please wait a moment...";
     var URL = resolveHelp2Keyword(Keyword, OnlineKeyword);
     window.status = "";
-    if (ReplacePage == true) {
+    if (URL.substring(0, 25) === "http://msdn.microsoft.com" && window.parent != null) {
+        // MSDN no longer support hosting in an IFRAME so open in new browser window 
+        window.open(URL, "_blank");
+    } else if (ReplacePage == true) {
         location.replace(URL);
-    }
-    else {
+    } else {
         location.href = URL;
     }
 }
